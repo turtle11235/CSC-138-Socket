@@ -1,7 +1,7 @@
 from socket import *
 
 server_name = '127.0.0.1'
-server_port = 12001
+server_port = 6789
 
 client_socket = socket(AF_INET, SOCK_STREAM) # SOCK_STREAM means we're gonna use TCP
 client_socket.connect((server_name, server_port))
